@@ -1,0 +1,30 @@
+.coin-detail{
+    background-color: #06141a;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.coin-detail p{
+    margin-top: 20px;
+    width: 70%;
+    text-align: justify;
+}
+
+.coin-detail p a{
+    color: goldenrod;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title img{
+    height: 70px;
+}

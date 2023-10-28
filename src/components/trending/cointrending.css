@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.coin-trending{
+    display: flex;
+    width: 60%;
+    gap: 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid goldenrod;
+    transition: 300ms all ease;
+    cursor: pointer;
+}
+
+.coin-trending:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+    transform: translateX(10px);
+}
+
+span{
+    padding-left: 30px;
+}
+
+img{
+    height: 50px;
+    padding: 10px;
+    border-radius: 20%;
+}

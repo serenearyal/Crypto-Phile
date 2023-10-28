@@ -1,0 +1,17 @@
+:root{
+    --dark: #012030;
+}
+
+.navbar{
+    height: 80px;
+    background-color: var(--dark);
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    cursor: pointer;
+}
