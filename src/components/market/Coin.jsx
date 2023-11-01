@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import "./coin.css"
 
 const Coin = ({coin}) => {
+    let positive = coin.price_change_percentage_24h >0
   return (
     <Link className='coin' to={`coin/${coin.id}`}>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -15,10 +16,8 @@ const Coin = ({coin}) => {
             <p>$ {coin.current_price}</p>
         </div>
 
-        <div className={coin.price_change_percentage_24h >0? "up":"down"}>
-            <p><span class="material-symbols-outlined" style={{color: coin.price_change_percentage_24h >0? "green":"red"}}>
-                trending_{coin.price_change_percentage_24h >0? "up":"down"}
-                </span>
+        <div className={positive? "up":"down"}>
+            <p>
                 {coin.price_change_percentage_24h}%
             </p>
         </div>
