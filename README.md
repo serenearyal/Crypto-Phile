@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+### Homepage
+![Screenshot 2024-02-20 at 3 22 41 PM](https://github.com/serenearyal/Crypto-Phile/assets/84435603/0a8c0be8-cca4-4b03-8f82-22ddbc5fc0a4)
 
-## Available Scripts
+### Details Page
+![Screenshot 2024-02-20 at 3 28 16 PM](https://github.com/serenearyal/Crypto-Phile/assets/84435603/95e8ca7c-3520-42ab-9374-151e6745c48e)
 
 In the project directory, you can run:
 
