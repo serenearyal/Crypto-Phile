@@ -11,6 +11,7 @@ const Market = () => {
   if (!response) {
     return <div className="loading">Loading Market...</div>;
   }
+
   return (
     <div className="market">
       <h2>
